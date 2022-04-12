@@ -6,7 +6,7 @@ type LayoutProps = {
     children: ReactNode;
 };
 
-export const Layout = (props: LayoutProps) => {
+export const Layout = (props: LayoutProps): JSX.Element => {
     const { children } = props;
     return (
         <WrapperLayout>

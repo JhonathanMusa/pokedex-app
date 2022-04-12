@@ -7,9 +7,8 @@ export const WrapperLayout = styled.div`
     margin: 0;
 `;
 
-export const MainContainer = styled.div`
-    // background-color: #4f4d8c;
+export const MainContainer = styled.main`
     width: 100%;
     padding: 0;
-    margin: 0;  
+    margin-bottom: 20px;  
 `;
