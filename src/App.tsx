@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Details from "./components/templates/details";
 import { About } from "./components/templates/about";
 
-function App() {
+function App(): JSX.Element {
     return (
         <Router>
             <Routes>
