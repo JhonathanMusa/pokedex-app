@@ -1,8 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export const Search = () => {
-  return (
-    <div>index</div>
-  )
-}
- 
+export const Search = (): JSX.Element => {
+    return <div>index</div>;
+};

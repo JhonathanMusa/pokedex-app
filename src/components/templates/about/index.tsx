@@ -2,7 +2,7 @@ import React from "react";
 import { Layout } from "src/components/organisms/layout";
 import { AboutContainer } from "./styled";
 
-export const About = () => {
+export const About = (): JSX.Element => {
     return (
         <Layout>
             <AboutContainer>

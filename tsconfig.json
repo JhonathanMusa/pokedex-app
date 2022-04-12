@@ -20,6 +20,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/components/**/*.tsx",
+    "src/utils/**/*.js",
     "**/**/**/*.ts",
   ],
   "exclude": ["node_modules"]

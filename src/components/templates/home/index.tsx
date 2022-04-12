@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Card } from "src/components/molecules/card";
+import React from "react";
 import { Pokemons } from "src/components/molecules/pokemons";
 import { Layout } from "src/components/organisms/layout";
 
-const Home = () => {
+const Home = (): JSX.Element => {
     return (
         <Layout>
             <Pokemons />
