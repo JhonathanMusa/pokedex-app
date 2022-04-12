@@ -20,7 +20,6 @@ export default function UsefetchPokeData(url) {
 
     useEffect(() => {
         fetchPokemonData();
-
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 

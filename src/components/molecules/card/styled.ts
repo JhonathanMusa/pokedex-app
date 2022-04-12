@@ -23,5 +23,5 @@ export const CardName = styled.p`
     padding: 0;
     margin: 0;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 1.5rem;
 `;

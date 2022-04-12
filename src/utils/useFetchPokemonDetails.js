@@ -17,7 +17,6 @@ export default function UseFetchPokemonDetails(name) {
                 `https://pokeapi.co/api/v2/pokemon/${name}`
             );
             const data = await res.json();
-            console.log(data);
             setPokeDetails(data);
         } catch (error) {
             console.log(error);
@@ -26,7 +25,6 @@ export default function UseFetchPokemonDetails(name) {
 
     useEffect(() => {
         fetchPokemonDetails();
-
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
